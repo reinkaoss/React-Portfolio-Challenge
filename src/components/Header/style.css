@@ -1,0 +1,71 @@
+
+:root {
+    --mainGray: #d5d5d5;
+    --darkPurple: #4d0a77;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: content-box;
+}
+
+body {
+background-color: 
+}
+
+/* Header Section */
+.jumbotron {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("../images/background.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+    font-weight: bolder;
+    font-size: 3.5rem;
+    color: var(--mainGray);
+}
+
+.lead {
+    color: var(--mainGray);
+    font-weight: bolder;
+}
+
+/* General */
+
+:root {
+    --mainGray: #d5d5d5;
+    --darkPurple: #4d0a77;
+    --orage: #eda653;
+    --lightPurple: #6a179d73;
+}
+
+
+/* NavBar */
+.navbar {
+    background: #4d0a77;
+    background: linear-gradient(90deg, #4d0a77 38%, #eda653 100%);
+    
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.navbar-light, .navbar-nav, .nav-link, a.nav-link {
+    color: var(--mainGray) !important;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a.nav-link:hover {
+    background-color: var(--lightPurple);
+    border-radius: 8px;
+}

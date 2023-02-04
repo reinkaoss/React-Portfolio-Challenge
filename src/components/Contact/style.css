@@ -1,0 +1,15 @@
+.card {
+    flex-direction: row;
+    width: 200px;
+    border-radius: 10px;
+    align-items: center;
+    background: #17141f;
+    box-shadow: -1rem 0 2rem #000;
+    transition: transform 0.9s ease;
+    font-weight: bolder;
+}
+
+.cardContainer {
+    justify-content: center;
+    display: flex;
+}
