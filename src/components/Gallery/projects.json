@@ -1,0 +1,37 @@
+[ {
+      "id": 0,
+      "name": "Weather Dashboard API",
+      "languages": "jQuery, HTML, AJAX, BOOTSTRAP",
+      "description": ""
+    },
+    {
+      "id": 1,
+      "name": "README Generator",
+      "languages": "JS, nodeJS, HTML, BOOTSTRAP",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Random film picker",
+      "languages": "jQuery, HTML, AJAX, BOOTSTRAP",
+      "description": ""
+    },
+    {
+        "id": 4,
+        "name": "Daily Planner app",
+        "languages": "jQuery, HTML, BOOTSTRAP",
+      "description": ""
+      },
+      {
+        "id": 5,
+        "name": "Random Password Generator",
+        "languages": "JS, HTML, BOOTSTRAP",
+      "description": ""
+      },
+      {
+        "id": 6,
+        "name": "JavaScript Quizz",
+        "languages": "JS, HTML, BOOTSTRAP",
+        "description": ""
+      }
+  ]

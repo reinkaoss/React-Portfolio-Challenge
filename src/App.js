@@ -3,6 +3,7 @@ import Home from "./components/Home"
 import Header from "./components/Header";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // function App() {
@@ -27,7 +28,7 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
           <Route path="gallery/" element={<Gallery />} />
-          {/* <Route path="blog" element={<Project />} /> */}
+          <Route path="blog" element={<Projects />} />
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
         </Routes>

@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import projects from "../Gallery/projects.json"
+import Projects from "../Projects/index"
 
 function Gallery() {
   return (
@@ -60,7 +62,15 @@ function Gallery() {
         </div>
     </div>
     </div>
-    </div>
+    {projects.map(project => (
+        <Projects
+          id={project.id}
+          name={project.name}
+          languages={project.languages}
+          description={project.description}
+        />
+      ))}   
+      </div>
   );
 }
 
