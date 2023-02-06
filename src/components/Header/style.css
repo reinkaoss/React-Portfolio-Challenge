@@ -1,7 +1,8 @@
-
 :root {
     --mainGray: #d5d5d5;
     --darkPurple: #4d0a77;
+    --orage: #eda653;
+    --lightPurple: #6a179d73;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
@@ -37,16 +38,6 @@ background-repeat: no-repeat;
     font-weight: bolder;
 }
 
-/* General */
-
-:root {
-    --mainGray: #d5d5d5;
-    --darkPurple: #4d0a77;
-    --orage: #eda653;
-    --lightPurple: #6a179d73;
-}
-
-
 /* NavBar */
 .navbar {
     background: #4d0a77;
@@ -63,6 +54,10 @@ background-repeat: no-repeat;
     color: var(--mainGray) !important;
     text-decoration: none;
     font-weight: bolder;
+}
+
+.nav-link active {
+    background-color: var(--lightPurple);
 }
 
 a.nav-link:hover {

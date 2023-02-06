@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background-color: #912cbaa3;
+    background-color: #912cbaa3 !important;
 }
 
 .cardContainer {
@@ -9,26 +9,82 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 45vh;
+    /* height: 45vh; */
 }
 
+/* @media only screen and (max-width: 600px) {
+    .cardsRow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+  } */
+
+
 .card {
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
     border-radius: 25px;
-    background-image: url("http://placekitten.com/400/300");
     box-shadow: -1rem 0 3rem #000;
     transition: transform 0.8s ease;
+    margin: 0 auto;
 }
 
 .card:hover {
     transform: scale(1.1);
 }
 
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: violet;
+}
+
+.cardText {
+    font-weight: bolder;
+    color: violet;
+}
+
+.card-img-top {
+    height: 100px;
+}
+
 /* Individual cards */
 
-.firstCard {
+/* .firstCard {
     background-image: url("../images/weatherAPI.png");
     background-size: cover;
     background-position: center;
+} */
+
+/* .secondCard {
+    background-image: url("../images/randompass.png");
+    background-size: cover;
+    background-position: center;
 }
+
+.thirdCard {
+    background-image: url("../images/randomfilm.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.fourthCard {
+    background-image: url("../images/jsQuizz.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.fifthCard {
+    background-image: url("../images/readmeGen.jpeg");
+    background-size: 21vw;
+    background-position: center;
+}
+
+.sixthCard {
+    background-image: url("../images/dailyPlanner.png");
+    background-size: 21vw;
+    background-position: center;
+} */

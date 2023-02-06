@@ -1,37 +1,37 @@
 [ {
-      "id": 0,
-      "name": "Weather Dashboard API",
-      "languages": "jQuery, HTML, AJAX, BOOTSTRAP",
-      "description": ""
+      "repo": 0,
+      "title": "Weather Dashboard API",
+      "deployed": "jQuery, HTML, AJAX, BOOTSTRAP",
+      "image": "./my-app/React-Portfolio-Challenge/src/components/images/weatherAPI.png"
     },
     {
-      "id": 1,
-      "name": "README Generator",
-      "languages": "JS, nodeJS, HTML, BOOTSTRAP",
-      "description": ""
+      "repo": 1,
+      "title": "README Generator",
+      "deployed": "JS, nodeJS, HTML, BOOTSTRAP",
+      "image": ""
     },
     {
-      "id": 2,
-      "name": "Random film picker",
-      "languages": "jQuery, HTML, AJAX, BOOTSTRAP",
-      "description": ""
+      "repo": 2,
+      "title": "Random film picker",
+      "deployed": "jQuery, HTML, AJAX, BOOTSTRAP",
+      "image": ""
     },
     {
-        "id": 4,
-        "name": "Daily Planner app",
-        "languages": "jQuery, HTML, BOOTSTRAP",
-      "description": ""
+        "repo": 4,
+        "title": "Daily Planner app",
+        "deployed": "jQuery, HTML, BOOTSTRAP",
+      "image": ""
       },
       {
-        "id": 5,
-        "name": "Random Password Generator",
-        "languages": "JS, HTML, BOOTSTRAP",
-      "description": ""
+        "repo": 5,
+        "title": "Random Password Generator",
+        "deployed": "JS, HTML, BOOTSTRAP",
+      "image": ""
       },
       {
-        "id": 6,
-        "name": "JavaScript Quizz",
-        "languages": "JS, HTML, BOOTSTRAP",
-        "description": ""
+        "repo": 6,
+        "title": "JavaScript Quizz",
+        "deployed": "JS, HTML, BOOTSTRAP",
+        "image": ""
       }
   ]

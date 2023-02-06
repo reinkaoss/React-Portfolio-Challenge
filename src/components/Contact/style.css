@@ -1,10 +1,28 @@
 .contactSection {
     text-align: center;
+    color: aliceblue;
+    border: 1px red solid;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: darkmagenta;
+    border-radius: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    .contactSection {
+        width: 300px;
+    }
+  }
 
 .contactTitle {
     font-weight: bolder;
     font-size: 3.5rem;
+}
+
+.contactTitle a {
+    text-decoration: none;
 }
 
 .contactSubTitle {
